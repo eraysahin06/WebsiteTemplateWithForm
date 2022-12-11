@@ -1,0 +1,493 @@
+/*
+FONTS: 
+Montserrat - Regular 400,
+Roboto Mono - Light 300
+*/
+
+/* COLORS:
+https://palettelist.com/53afff/9de16f
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+nav{
+    background-color: #212121;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 90%;
+    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #212121;
+}
+
+.card {
+    background-color: #17b978;
+    padding: 20px;
+}
+
+.moto-image {
+    width: 50%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.name{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.job-title{
+    font-size: 1.5rem;
+    color: #2e2e2e;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resume-button{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto Mono', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}
+
+.resume-button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+#basic-info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 246px;
+    height: 40px;
+    color: #000000;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto Mono', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.contact-button:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.info{
+    background-color: #a7ff83;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+#about-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-me {
+    background-color: #a7ff83;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 75%;
+    
+}
+
+.info p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #ff3939;
+}
+
+.academic-honesty {
+    background-color: #a7ff83;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 75%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#ss{
+    width: 100px;
+}
+
+.honesty-title{
+    text-align: center;
+}
+
+.info-element{
+margin-top: 10px;
+background-color: #086972;
+color: #ffffff;
+padding: 10px;
+border-radius: 10px;
+width: 250px;
+height: 50px;
+transition: background-color 0.2s ease-in 50ms
+
+}
+
+.reset{
+    color: #6b6b6b;
+}
+
+.info-element:hover{
+    background-color: #a7ff83;
+    color: #000000;
+}
+
+.basic-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+h5 a {
+    color: #000000;
+    text-decoration: none;
+    float: right;
+}
+
+.p-span{
+    font-family: 'Roboto Mono', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #000000;
+    float: right;
+}
+
+.edu-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.edu-text {
+   margin-top: 10px;
+}
+
+.education {
+    background-color: #17b978;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.school-card {
+    background-color: #a7ff83;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 170px;
+
+}
+
+.school-info {
+    padding: 20px;
+}
+
+.edu-element {
+color: #FFF;
+background-color: #086972;
+text-align: center;
+width: 250px;
+border-radius: 5px;
+padding: 10px;
+margin: 0 auto;
+}
+
+.skills {
+    background-color: #a7ff83;
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-para {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+
+.skill {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #a7ff83;
+    width: 300px;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul a:hover{
+    color: #086972;
+
+}
+
+
+.form {
+    background-color: #17b978;
+    padding: 20px;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-indent: 10px;
+    border-style: none;
+}
+
+.radio-group {
+    width: 250px;
+    margin: 0 auto;
+    color: #6b6b6b;
+}
+
+input[type="radio"]:checked+label{ font-weight: bold; } 
+
+.radio {
+    margin-right: 25px;
+    text-align: center;
+}
+
+#message{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    border-style: none;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+#contact-reason{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.radio-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #086972;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 400px) {
+    .info-element{
+        width: 100%;
+    }
+    h5 a {
+        float: none;
+    }
+    .p-span {
+        float: none;
+    }
+    .about-me {
+        max-width: 100%;
+        width: 300px;
+    }
+    .academic-honesty{
+        max-width: 100%;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    h1{
+        display: none;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    footer{
+        font-size: 10px;
+    }
+
+    .edu-element{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 430px) {
+    .school-card{
+        max-width: 100%;
+        width: 300px;
+        height: auto;
+    }
+    
+   
+}
+
+@media screen and (max-width: 320px) {
+    .resume-button{
+        width: 100%;
+    }
+
+    .contact-button{
+        width: 100%;
+    }
+   
+}

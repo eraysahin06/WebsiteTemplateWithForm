@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website">
+    <meta name="author" content="Eray Sahin">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Title Icon -->
+    <link rel="icon" href="card-photo.jpeg" type="image/x-icon">
+    <title>Eray Sahin</title>
+</head>
+<body>
+    <header>
+       <nav>
+        <h1><a href="./index.html">ES</a></h1>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-title">About</a></li>
+                <li><a href="#scr-form">Contact</a></li>
+              </ul>
+       </nav>
+    </header>
+    <main>
+        <section class="card">
+            <img class="moto-image" src="card-photo.jpeg" alt="eray sahin">
+            <h2 class="name">Eray Sahin<F/h2>
+            <p class="job-title">Software Testing Engineer</p>
+            <a class="resume-button" href="resume.pdf" download="Eray Sahin Resume">Resume</a>
+            <a class="contact-button" href="#scr-form">Contact Me</a>
+        </section>
+        <section class="info">
+            <div class="basic-info">
+                <h2 id="basic-info">Basic Information</h2>
+                <h5 class="info-element">E-mail: <a href="mailto: esahin2@myseneca.ca">eraysahinmoon@gmail.com</a><h5>
+                <h5 class="info-element">Info: <span class="p-span"> information</span> </h5>                     
+                <h5 class="info-element">Info: <span class="p-span">information</span></h5>                            
+                <h5 class="info-element">Info: <span class="p-span">information</span></h5>                   
+            </div>
+            <h2 id="about-title">About Me</h2>
+            <p class="about-me">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita facere tempora illo impedit natus quae excepturi doloremque quis suscipit quisquam aspernatur repellendus delectus obcaecati facilis reprehenderit magni at exercitationem hic, debitis quo. Quos cupiditate, dolorem illo minima impedit natus itaque dicta iusto error dolore aliquam sint eius magnam rem odit, deleniti enim aut, assumenda consequuntur omnis obcaecati explicabo hic. Eligendi sint earum ullam laudantium amet? Perspiciatis temporibus ab sint minima porro suscipit natus nam. Temporibus aliquam odio magni deserunt vel neque accusamus similique, autem numquam in illo quaerat, necessitatibus fugiat doloribus enim amet aliquid adipisci labore maiores deleniti nobis iure optio inventore. Quo odit fugit sint. Quo totam eveniet reprehenderit iure ab dolores assumenda possimus eum quia obcaecati, magni nihil? Sunt error ducimus suscipit sapiente, officiis totam magnam saepe vero minus sit animi eius a commodi porro! Placeat quae numquam recusandae asperiores, blanditiis sapiente officiis non iure facilis quaerat.
+            </p>
+            <h2 id="about-title">Another Section</h2>
+            <p class="academic-honesty">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi enim perferendis tenetur id vero praesentium dolorem voluptatum doloribus, tempore consequatur, animi, facere nam modi autem est quae veritatis eveniet sequi harum? Molestiae dolores pariatur, eos quia iure dicta, accusamus corporis magni asperiores consectetur praesentium vel. Odit dolor minima corporis iure optio veniam laborum nesciunt nam nostrum numquam voluptatem distinctio voluptate obcaecati ratione dolores eum reiciendis placeat, totam assumenda ut necessitatibus!
+            </p>
+        </section>
+        <section class="education">
+            <h2 class="edu-title">Education</h2>
+            <figure class="school-card">
+                <h3 class="school-info">Current School</h3>
+                <p class="edu-element">Seneca College</p>
+                <p class="edu-text">I am currently a student at Seneca College.</p>
+            </figure>
+            <figure class="school-card">
+                <h3 class="school-info">High School</h3>
+                <p class="edu-element">Final Cayyolu High School</p>
+                <p class="edu-text">I graduated from Final Cayyolu High School in 2021.</p>
+            </figure>
+        </section>
+        <section id="skills-scroll" class="skills">
+            <h2 class="skills-title">Skills</h2>
+            <p class="skills-para">These are some skills that I want to achieve while I am studying at Seneca College.</p>
+            <ul class="skills-list">
+                <li class="skill"><a target="_blank" href="https://reactjs.org/"> <i class="fa-brands fa-react"></i> ReactJS</a> </li>
+                <li class="skill"><a target="_blank" href="https://www.mongodb.com/"><i class="fa-solid fa-database"></i> MongoDB</a></li>
+                <li class="skill"><a target="_blank" href="https://expressjs.com/">ExpressJS</a></li>
+               <li class="skill"> <a target="_blank" href="https://nodejs.org/en/"><i class="fa-brands fa-node"></i> Node.js</a></li>
+                <li class="skill"><a target="_blank" href="https://www.senecacollege.ca/cgi-bin/subject?s1=OSD600">Open Source Development</a></li>
+                <li class="skill"><a target="_blank" href="https://github.com/eraysahin06"><i class="fa-brands fa-github"></i> Git - GitHub</a></li>
+            </ul>         
+        </section>
+        <section id="scr-form" class="form">
+            <form action="https://httpbin.org/post" method="POST">
+                <h2 class="form-title">Contact Form</h2>
+                <div class="form-group">
+                    <label id="scroll-name" class="required" for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group email">
+                    <label class="required"  for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                </div>
+                <div id="form-scroll" class="form-group email">
+                    <label for="email2">Work E-mail</label>
+                    <input type="email" name="email2" id="email2" placeholder="work@email.com">
+                </div>
+                <div class="form-group address">
+                    <label class="required"  for="address">Address</label>
+                    <input type="text" name="address" id="address" placeholder="222 Web Street" required>
+                </div>
+                <div class="form-group city">
+                    <label class="required"  for="city">City</label>
+                    <input type="text" name="city" id="city" placeholder="Toronto" required>
+                </div>
+                <div class="form-group province">
+                    <label class="required"  for="province">Province</label>
+                    <input autocomplete="address-level1" list="provinces" name="province" id="province" placeholder="  Ontario" required>
+                    <datalist id="provinces">
+                        <option value="Ontario">
+                        <option value="Quebec">
+                        <option value="Nova Scotia">
+                        <option value="New Brunswick">
+                        <option value="Manitoba">
+                        <option value="British Columbia">
+                        <option value="Prince Edward Island">
+                        <option value="Saskatchewan">
+                        <option value="Alberta">
+                        <option value="Newfoundland and Labrador">
+                    </datalist>
+                </div>
+                <div class="form-group postal">
+                    <label class="required"  for="postal">Postal Code</label>
+                    <input type="text" name="postal" id="postal" placeholder="M2N 4G7" pattern="[A-Za-z][0-9][A-Za-z]\s?-?[0-9][A-Za-z][0-9]" required>
+                </div>
+                <div class="radio-form">
+                    <label id="contact-reason" class="required" for="radio">Reason for Contact</label>            
+                    <div class="radio-group">
+                        <input checked type="radio" name="radio" id="job" value="job">
+                        <label for="job">Job Offer</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="radio" id="school" value="school">
+                        <label for="school">School</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="radio" id="other" value="other">
+                        <label for="other">Other</label>
+                    </div>  
+                </div> 
+                <div class="form-group topic">
+                    <label id="topic-label" hidden for="topic">Topic</label>
+                    <input id="topic-input" hidden type="text" name="topic" id="topic" placeholder="Topic">
+                </div>
+                <div class="form-group message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Hello Eray..." required></textarea>
+                </div>
+                <div class="form-group buttons">
+                    <button type="reset" class="reset">Reset</button>
+                    <button type="submit" class="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Eray Sahin 2022 - WEB222 - Final Assessment</p>
+    </footer>
+
+    <script src="script.js"></script>
+<!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3a987b7bde.js" crossorigin="anonymous"></script>
+</body>
+</html>
