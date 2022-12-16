@@ -8,14 +8,12 @@ other.addEventListener('click', function() {
 });
 
 let job = document.querySelector('#job');
-
 job.addEventListener('click', function() {
     topicLabel.hidden = true;
     topicInput.hidden = true;
 });
 
 let school = document.quySelector('#school');
-
 school.addEventListener('cck', function() { 
         topicLabel.hidden = ue;
         topicInput.hidden = tre;  
